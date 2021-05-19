@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    min-height: 100vh;
+    overflow-x: hidden;
+    background: radial-gradient(#7597de,#2b1055);
+
+}
+nav{
+    margin: 0 30px;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #2a105563;
+}
+nav ul{
+    margin: 0 auto ;
+    white-space: nowrap;
+    display: flex;
+}
+nav li{
+    flex: 1;
+    font-size: 2em;
+    padding: 5px 15px;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+}
+nav li:hover{
+    background-color: #2b1055;
+}
+nav li a{
+    color: #000;
+    text-decoration: none;
+}
+.hello{
+    margin: 10%;
+}
+.hello h1{
+    color: rgb(255, 0, 0);
+    font-size: 70px;
+}
+.hello h2{
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+}
+.hello p{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+.hello img{
+    border-radius: 500px;
+    width: 30em;
+    float: right;
+}
+.achievement{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+.content{
+    display: flex;
+    padding: 20px;
+}
+.navodaya{
+    box-shadow: 10px 4px 8px 5px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    height: 20%;
+    transition: 1.4s;
+    margin: auto;
+    margin-bottom: 25px;
+    border-radius: 20px;
+    text-align: center;
+    font-family: arial;
+    font-size: 30px;
+}
+.jee{
+    box-shadow: 10px 4px 8px 5px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    height: 20%;
+    transition: 1.4s;
+    margin: auto;
+    margin-bottom: 25px;
+    border-radius: 20px;
+    text-align: center;
+    font-family: arial;
+    font-size: 30px;
+}
+.iit-kgp{
+    box-shadow: 10px 4px 8px 5px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    height: 20%;
+    transition: 1.4s;
+    margin: auto;
+    margin-bottom: 25px;
+    border-radius: 20px;
+    text-align: center;
+    font-family: arial;
+    font-size: 30px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.about-card{
+    box-shadow: 10px 4px 8px 5px rgba(0, 0, 0, 0.2);
+    width: 500px;
+    height: 400px;
+    transition: 1.4s;
+    margin: auto;
+    margin-bottom: 25px;
+    border-radius: 20px;
+    text-align: center;
+    font-family: arial;
+    font-size: 30px;
+}
+.about-card:hover{
+    transform: scale(1.1);
+    transform: rotateZ(360deg);
+}
+.card{
+    box-shadow: 10px 4px 8px 5px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    height: 200px;
+    transition: 1.4s;
+    margin: auto;
+    margin-bottom: 25px;
+    border-radius: 20px;
+    text-align: center;
+    font-family: arial;
+}
+.card img{
+    padding-top: 20%;
+}
+.card:hover{
+    transform: scale(1.1);
+    transform: rotateY(360deg);
+}
+
+.copyright{
+    text-align: center;
+    text-shadow: 1px 1px 2px #fff;
+}
